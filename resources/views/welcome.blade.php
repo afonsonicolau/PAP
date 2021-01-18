@@ -1,40 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.outer')
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Olfaire Mendes&Nicolau</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-sddfasrad
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Bethany - v3.0.0
-  * Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+@section('content')
 
 <body>
 
@@ -50,10 +16,11 @@ sddfasrad
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active"><a href="#header">Início</a></li>
+            <!-- <li class="active"><a href="#header">Início</a></li> -->
             <li><a href="#about">Sobre Nós</a></li>
-            <li><a href="#services">Serviços</a></li>
-            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#portfolio">Produtos</a></li>
+            <li><a href="#">Loja Online</a></li>
+            <li><a href="#">Outlet</a></li>
             <li><a href="#team">Equipa</a></li>
             <li><a href="#contact">Contacte-nos</a></li>
             <!-- <li class="get-started"><a href="#about">Get Started</a></li> -->
@@ -116,19 +83,21 @@ sddfasrad
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <h2>Sobre nós</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+            <h3>foto avó</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p>
-              Somos uma empresa criada em *ano* por Álvaro Nicolau, uma pessoa que amava cerâmica e queria fazer tal como a sua vida. A começar de uma casa até chegar a algo que podemos
-              felizmente chamar uma fábrica. Nestes tempos difíceis para todos nós já tivemos nós próprios as nossas dificuldades, mas foi o "querer" e motivação que nos fez e faz 
-              avançar.
+              Proseguindo uma tradição familiar, iniciada nos anos 40, Álvaro José fundou a sua própria empresa em 1970 produzindo faiança tradicional das Caldas da Rainha, criando a marca OLFAIRE.
+              <br><br> 
+              Inserida na política de expansão da empresa é constituída a (Mendes & Nicolau, LDA) em 1991 num novo espaço indústrial com vista a satisfazer a procura crescente de loiça de faiança para os mercados externos.
+              <br><br>
+              Atualmente a empresa exporta para vários mercados dos 5 continentes.                   
             </p>
-            <ul>
+            <!-- <ul>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
               <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
-            </ul>
+            </ul> -->
             <p class="font-italic">
               Temos vários objetivos, e vamos tentar sempre o nosso melhor para os alcançar e superar qualquer dificuldade, tal como aconteceu no passado e acontecerá no futuro!
             </p>
@@ -173,7 +142,7 @@ sddfasrad
             <div class="content">
               <h3>Por que deveria escolher a Olfaire?</h3>
               <p>
-                A Olfaire Mendes&Nicolau oferece louça artesanal 
+                Oferecemos loiça de faiança de alta qualidade, a um preço acessível.
               </p>
               <!-- <div class="text-center">
                 <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -225,7 +194,7 @@ sddfasrad
       </div>
     </section> End Cta Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Services Section ======= 
     <section id="services" class="services section-bg">
       <div class="container">
 
@@ -275,14 +244,14 @@ sddfasrad
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title" data-aos="fade-left">
-          <h2>Portfolio</h2>
+          <h2>Produtos</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -301,42 +270,42 @@ sddfasrad
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/products/product-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>Cabbage</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
+            <p>Cabbage</p>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/products/product-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
-                <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a> 
+                  <a href="assets/img/products/product-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a> 
                 </div>
               </div>
             </div>
+            <p>Coastal</p>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/products/product-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
-                <p>App</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
+            <p>Coastal</p>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
@@ -350,6 +319,7 @@ sddfasrad
                 </div>
               </div>
             </div>
+            <p>Harvest</p>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
@@ -357,12 +327,12 @@ sddfasrad
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
-                <p>Web</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
+            <p>Harvest</p>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -376,46 +346,9 @@ sddfasrad
                 </div>
               </div>
             </div>
+            <p>Fruits</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div>
 
@@ -506,7 +439,7 @@ sddfasrad
           <div class="col-lg-4">
             <div class="section-title" data-aos="fade-right">
               <h2>Equipa</h2>
-              <p>A nossa empresa tem 2 administradores, como apresentado à direita, e conta com 18 empregados. Juntos, conseguimos alcançar qualquer objetivo.</p>
+              <p>A nossa empresa tem um administrador , como apresentado à direita, e conta com 18 empregados. Juntos, conseguimos alcançar qualquer objetivo.</p>
             </div>
           </div>
           <div class="col-lg-8">
@@ -517,8 +450,8 @@ sddfasrad
                   <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>Fernando Nicolau</h4>
-                    <span>Chefe Executivo</span>
-                    <p>"Frase"</p>
+                    <span>Chefe Executivo & Gerente de Exportações</span>
+                    <p>"O difícil faz-se, o impossível demora mais um bocadinho"</p>
                   </div>
                 </div>
               </div>
@@ -528,8 +461,8 @@ sddfasrad
                   <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>Carla Nicolau</h4>
-                    <span>Gerente Comercial Nacional</span>
-                    <p>"Frase"</p>
+                    <span>Gerente Comercial Ibérico</span>
+                    <p>"Só não se consegue aquilo que não se quer"</p>
                     <!-- Social Links  
                     <div class="social">
                       <a href=""><i class="ri-twitter-fill"></i></a>
@@ -556,7 +489,7 @@ sddfasrad
           <div class="col-lg-4" data-aos="fade-right">
             <div class="section-title">
               <h2>Contacte-nos</h2>
-              <p>Caso nos queira contactar tem todos os métodos aqui disponíveis! Estamos comercial de segunda a sexta-feira das 10:30 às 16:30.</p>
+              <p>Caso nos queira contactar tem todos os métodos aqui disponíveis! Atendimento comercial está disponível de segunda a sexta-feira das 10:30 às 16:30.</p>
             </div>
           </div>
 
@@ -565,7 +498,7 @@ sddfasrad
             <div class="info mt-4">
               <i class="icofont-google-map"></i>
               <h4>Localização:</h4>
-              <p>Estrada Nacional 8, Tornada, 2504-909</p>
+              <p>Estrada Nacional 8, Tornada, 2500-315</p>
             </div>
             <div class="row">
               <div class="col-lg-6 mt-4">
@@ -618,93 +551,4 @@ sddfasrad
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <!-- <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Olfaire</h3>
-            <h4>Mendes&Nicolau</h4>
-            <p>
-              Entrada Nacional 8 <br>
-              Tornada, NY 535022<br>
-              Portugal <br><br>
-              <strong>Telefone:</strong> +1 5589 55488 55<br>
-              <strong>E-mail:</strong> olfaire@gmail.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Início</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about">Sobre nós</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Serviços</a></li>
-               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> 
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Serviços</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div> 
-
-        </div>
-      </div>
-    </div> -->
-
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Olfaire Mendes&Nicolau</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a target="_blank" href="https://www.facebook.com/Olfaire-522861334579028" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a target="_blank" href="https://www.instagram.com/olfaire_oficial/" class="instagram"><i class="bx bxl-instagram"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+  @endsection
