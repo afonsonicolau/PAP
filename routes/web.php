@@ -13,10 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+// Welcome Page
+Route::view('/', 'welcome');
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Admin Login
+//Route::view('/login-admin', 'auth.admin.login-admin');
+// Admin Dashboard
+Route::get('/admin', 'Home@index')->name('home');
+Route::post('/admin', 'Home@index')->name('home');
+
+
+// Online Shop Page
+//Route::view('/loja-online', 'onlineshop.loja-online');
+// Online Outlet Page
+//Route::view('/outlet', 'outlet.loja-outlet');
