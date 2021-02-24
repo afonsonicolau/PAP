@@ -21,7 +21,9 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="/assets/css/util.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-<!--===============================================================================================-->
+<!--=================================== Font Awesome Icons ===========================================-->
+	<script src="https://kit.fontawesome.com/303362d7a7.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 	
@@ -32,22 +34,22 @@
 					<img src="/assets/img/login-admin.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form" method="POST" action="{{ route('home') }}">
+				<form class="login100-form validate-form" method="POST" action="{{ route('login') }}">
 					@csrf
 					<span class="login100-form-title">
 						Login - Administração
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Por favor, insira o seu nome de utilizador">
-						<input class="input100" type="text" name="email" placeholder="Nome de Utilizador">
+						<input class="input100" type="text" id='email' name="email" placeholder="Nome de Utilizador">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
-						<i class="fa fa-envelope"></i>
+						<i class="fas fa-user"></i>
 						</span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Por favor, insira a sua palavra-passe">
-						<input class="input100" type="password" name="pass" placeholder="Palavra-passe">
+						<input class="input100" type="password" id='password' name="password" placeholder="Palavra-passe">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock"></i>

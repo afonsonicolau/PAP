@@ -20,8 +20,8 @@
             <li><a href="#header">Início</a></li>
             <li><a href="#about">Sobre Nós</a></li>
             <li><a href="#portfolio">Produtos</a></li>
-            <li><a href="/loja-online">Loja Online</a></li>
-            <li><a href="/outlet">Outlet</a></li>
+            <li><a href="{{route('register')}}">Loja Online</a></li>
+            <li><a href="{{route('outlet_store')}}">Outlet</a></li>
             <li><a href="#team">Equipa</a></li>
             <li><a href="#contact">Contacte-nos</a></li>
             <!-- <li class="get-started"><a href="#about">Get Started</a></li> -->
